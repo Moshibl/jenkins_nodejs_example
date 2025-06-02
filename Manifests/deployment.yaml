@@ -16,7 +16,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: mohamedshibl/nodeapp
+      - image: 588738579508.dkr.ecr.us-east-1.amazonaws.com/my-ecr:latest
         name: nodeapp
         resources: {}
 status: {}
