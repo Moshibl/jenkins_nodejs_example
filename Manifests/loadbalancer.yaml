@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nodeapp-lb
   annotations:
-    kubernetes.io/role/elb: 1
+    kubernetes.io/role/elb: "1"
 spec:
   type: LoadBalancer
   selector:
