@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nodeapp-lb
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-internal: "true"
+    kubernetes.io/role/elb: 1
 spec:
   type: LoadBalancer
   selector:
